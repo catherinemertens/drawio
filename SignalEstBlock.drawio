@@ -1,38 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.1">
   <diagram name="Page-1" id="g66AYG55TtXyA1JEMtzF">
-    <mxGraphModel dx="2747" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1845" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HNc6YtDHOVWQGCZwxuty-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF1AA;" parent="1" vertex="1">
-          <mxGeometry x="-1200" y="40" width="350" height="400" as="geometry" />
+          <mxGeometry x="-825" y="270" width="350" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-3" value="&lt;div&gt;Channels modelled as correlated Rayleigh fading distribution:&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ \textbf{h}_{kl} \sim \mathcal{C} \mathcal{N} (0, \textbf{R}_{kl}), \textbf{R}_{kl} \in \mathbf{C}^{N \times N}, \textbf{h}_{kl} \in \mathbf{C}^N $$&lt;/div&gt;&lt;div&gt;\(\{\textbf{R}_{kl}\}\) known at each APs and the CPU&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After MMSE estimation, \(\widehat{\mathbf{h}}_{kl} \sim \mathcal{CN}(\mathbf{0}, \widehat{\mathbf{R}}_{kl})\) and estimation error \(\widetilde{\mathbf{h}}_{kl} = \mathbf{h}_{kl} - \widehat{\mathbf{h}}_{kl} \sim \mathcal{CN}(\mathbf{0}, \widetilde{\mathbf{R}}_{kl})\) uncorrelated where \(\widehat{\mathbf{R}}_{kl} = p_k \tau_p \mathbf{R}_{kl}&amp;nbsp;\mathbf{\Psi}_{kl}^{-1} \mathbf{R}_{kl}\) and \(\widetilde{\mathbf{R}}_{kl} = \mathbf{R}_{kl} - \widehat{\mathbf{R}}_{kl}\) &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(p_i \geq 0 \), transmit power of UE \(i\), known at the APs&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Receiver noise vector \( \mathbf{n}_l \sim \mathcal{CN}(\mathbf{0}, \sigma^2\mathbf{I}_N)\) with independent elements&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\mathbf{H}_l = [\mathbf{h}_{1l}, \mathbf{h}_{2l}, ..., \mathbf{h}_{Kl}] \in \mathbf{C}^{N \times K} \) &lt;br&gt;&lt;/div&gt;&lt;div&gt;Define \(\mathbf{H}_l = \widehat{\mathbf{H}}_l + \widetilde{\mathbf{H}}_l \) , with \( \widehat{\mathbf{H}}_l\) the matrix with channel estimates and \(\widetilde{\mathbf{H}}_l\) the matrix with estimation errors.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Initial error covariance matrix &lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\mathbf{P}_0 = \mathbb{E} \bigl\{(\mathbf{s} - \widehat{\mathbf{s}}_0)(\mathbf{s} - \widehat{\mathbf{s}}_0)^H \bigr\} = \mathbf{Q} \)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1180" y="110" width="310" height="370" as="geometry" />
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-3" value="&lt;div&gt;Channels modelled as correlated Rayleigh fading distribution:&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ \textbf{h}_{kl} \sim \mathcal{C} \mathcal{N} (0, \textbf{R}_{kl}), \textbf{R}_{kl} \in \mathbb{C}^{N \times N}, \textbf{h}_{kl} \in \mathbb{C}^N $$&lt;/div&gt;&lt;div&gt;\(\{\textbf{R}_{kl}\}\) known at each APs and the CPU&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After MMSE estimation, \(\widehat{\mathbf{h}}_{kl} \sim \mathcal{CN}(\mathbf{0}, \widehat{\mathbf{R}}_{kl})\) and estimation error \(\widetilde{\mathbf{h}}_{kl} = \mathbf{h}_{kl} - \widehat{\mathbf{h}}_{kl} \sim \mathcal{CN}(\mathbf{0}, \widetilde{\mathbf{R}}_{kl})\) uncorrelated where \(\widehat{\mathbf{R}}_{kl} = p_k \tau_p \mathbf{R}_{kl}&amp;nbsp;\mathbf{\Psi}_{kl}^{-1} \mathbf{R}_{kl}\) and \(\widetilde{\mathbf{R}}_{kl} = \mathbf{R}_{kl} - \widehat{\mathbf{R}}_{kl}\) &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(p_i \geq 0 \), transmit power of UE \(i\), known at the APs&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Receiver noise vector \( \mathbf{n}_l \sim \mathcal{CN}(\mathbf{0}, \sigma^2\mathbf{I}_N)\) with independent elements&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\mathbf{H}_l = [\mathbf{h}_{1l}, \mathbf{h}_{2l}, ..., \mathbf{h}_{Kl}] \in \mathbb{C}^{N \times K} \) &lt;br&gt;&lt;/div&gt;&lt;div&gt;Define \(\mathbf{H}_l = \widehat{\mathbf{H}}_l + \widetilde{\mathbf{H}}_l \) , with \( \widehat{\mathbf{H}}_l\) the matrix with channel estimates and \(\widetilde{\mathbf{H}}_l\) the matrix with estimation errors.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Initial error covariance matrix &lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\mathbf{P}_0 = \mathbb{E} \bigl\{(\mathbf{s} - \widehat{\mathbf{s}}_0)(\mathbf{s} - \widehat{\mathbf{s}}_0)^H \bigr\} = \mathbf{Q} \)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="330" width="310" height="370" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;" parent="1" vertex="1">
           <mxGeometry x="-820" y="150" width="340" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;Payload signal vector transmitted by UEs \( \mathbf{s} = [s_1, s_2, ..., s_K]^T \in \mathbf{C}^K \) &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;with \(s_k \sim \mathcal{CN}(0, p_k) \) and \(s_k\) independent from \(s_m\),&lt;/div&gt;&lt;div&gt;&amp;nbsp;such that \(\mathbf{s} \sim \mathcal{CN}(\mathbf{0}, \mathbf{Q}) \) with \(\mathbf{Q} = \text{diag}(p_1, ..., p_K)\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;Payload signal vector transmitted by UEs \( \mathbf{s} = [s_1, s_2, ..., s_K]^T \in \mathbb{C}^K \) &lt;br&gt;&lt;/div&gt;&lt;div&gt;with \(s_k \sim \mathcal{CN}(0, p_k) \) and \(s_k\) independent from \(s_m\),&lt;/div&gt;&lt;div&gt;&amp;nbsp;such that \(\mathbf{s} \sim \mathcal{CN}(\mathbf{0}, \mathbf{Q}) \) with \(\mathbf{Q} = \text{diag}(p_1, ..., p_K)\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-810" y="165" width="310" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-7" target="_8BapqA1ZgfuwaxU-zGh-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
-          <mxGeometry x="-410" y="150" width="1230" height="100" as="geometry" />
+          <mxGeometry x="-460" y="150" width="1240" height="170" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-9" value="UEs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-530" y="230" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-10" value="&lt;div&gt;AP \(1\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="760" y="235" width="60" height="20" as="geometry" />
+          <mxGeometry x="720" y="310" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;Received signal \(\mathbf{y}_{1} = \mathbf{H}_1 \mathbf{s} + \mathbf{n}_1 \in \mathbf{C}^N = \widehat{\mathbf{H}}_1 \mathbf{s} +&amp;nbsp;\widetilde{\mathbf{H}}_1 \mathbf{s} +\mathbf{n}_1= \widehat{\mathbf{H}}_{1} \mathbf{s} + \mathbf{w}_1 \)&lt;/div&gt;&lt;div&gt;where \(\mathbf{w}_1 =&amp;nbsp; \widetilde{\mathbf{H}}_1 \mathbf{s} + \mathbf{n}_1 \) is kind of colored noise with zero mean and covariance matrix \( \mathbf{\Sigma}_1 = \sum_{i = 1}^K p_i \widetilde{\mathbf{R}}_{i1} + \sigma^2 \mathbf{I}_N\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="135" width="310" height="130" as="geometry" />
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;Received signal \(\mathbf{y}_{1} = \mathbf{H}_1 \mathbf{s} + \mathbf{n}_1 \in \mathbb{C}^N = \widehat{\mathbf{H}}_1 \mathbf{s} +&amp;nbsp;\widetilde{\mathbf{H}}_1 \mathbf{s} +\mathbf{n}_1= \widehat{\mathbf{H}}_{1} \mathbf{s} + \mathbf{w}_1 \)&lt;/div&gt;&lt;div&gt;where \(\mathbf{w}_1 =&amp;nbsp; \widetilde{\mathbf{H}}_1 \mathbf{s} + \mathbf{n}_1 \) is kind of colored noise with zero mean and covariance matrix \( \mathbf{\Sigma}_1 = \sum_{i = 1}^K p_i \widetilde{\mathbf{R}}_{i1} + \sigma^2 \mathbf{I}_N\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="150" width="320" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-19" target="HNc6YtDHOVWQGCZwxuty-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;Update \(\mathbf{T}_l\) and \(\mathbf{P}_l\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\widehat{s}_1 = \mathbf{T}_1&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="160" width="310" height="70" as="geometry" />
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;Find \(\mathbf{T}_1\) and \(\mathbf{P}_1\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( \begin{split} \mathbf{T}_1 &amp;amp; = \mathbf{P}_0 \widehat{\mathbf{H}}_1^H \bigl( \mathbf{\Sigma}_1 + \widehat{\mathbf{H}}_1 \mathbf{P}_0 \widehat{\mathbf{H}}_1^H\bigr)^{-1} \\&amp;nbsp; &amp;amp;&amp;nbsp;  = \mathbf{Q} \widehat{\mathbf{H}}_1^H \bigl( \mathbf{\Sigma}_1 + &lt;br&gt;\widehat{\mathbf{H}}_1 \mathbf{Q} \widehat{\mathbf{H}}_1^H\bigr)^{-1} \end{split} \)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\begin{split} &lt;br&gt;\mathbf{P}_1 &amp;amp; = \bigl(\mathbf{I}_K - \mathbf{T}_1 \widehat{\mathbf{H}}_1 \bigr) \mathbf{P}_0 \\&lt;br&gt;&amp;amp; = \Bigl(\mathbf{I}_K - \mathbf{Q} \widehat{\mathbf{H}}_1^H \bigl( \mathbf{\Sigma}_1 +&lt;br&gt;\widehat{\mathbf{H}}_1 \mathbf{Q} \widehat{\mathbf{H}}_1^H\bigr)^{-1} \widehat{\mathbf{H}}_1 \Bigr) \mathbf{Q}&lt;br&gt;\end{split}\)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="160" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HNc6YtDHOVWQGCZwxuty-5" target="HNc6YtDHOVWQGCZwxuty-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -42,17 +42,76 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19" edge="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;Signal estimation &lt;br&gt;&lt;/div&gt;&lt;div&gt;\(&lt;br&gt;\begin{split}&lt;br&gt;\widehat{\mathbf{s}}_1 &amp;amp; = \widehat{\mathbf{s}}_0 + \mathbf{T}_1 \bigl(\mathbf{y}_1 - \widehat{\mathbf{H}}_1 \widehat{\mathbf{s}}_0 \bigr) \\&lt;br&gt;&amp;amp; = \mathbf{0} + \mathbf{Q} \widehat{\mathbf{H}}_1^H \bigl( \mathbf{\Sigma}_1 +&lt;br&gt;\widehat{\mathbf{H}}_1 \mathbf{Q} \widehat{\mathbf{H}}_1^H\bigr)^{-1} \bigl(\mathbf{y}_1 - \widehat{\mathbf{H}}_1 \mathbf{0} \bigr) \\&lt;br&gt;&amp;amp; = \mathbf{Q} \widehat{\mathbf{H}}_1^H \bigl( \mathbf{\Sigma}_1 +&lt;br&gt;\widehat{\mathbf{H}}_1 \mathbf{Q} \widehat{\mathbf{H}}_1^H\bigr)^{-1} \mathbf{y}_1&lt;br&gt;\end{split}&lt;br&gt;\)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="165" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-1" value="Note that \( \mathbf{s} \) is uncorrelated with \( \mathbf{w}_1\) but is statistically dependent&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="260" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="500" width="1240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-5" value="&lt;div&gt;AP \(l\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="660" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-6" value="&lt;div&gt;Received signal \(\mathbf{y}_{l} = \mathbf{H}_l \mathbf{s} + &lt;br/&gt;\mathbf{n}_l \in \mathbf{C}^N = \widehat{\mathbf{H}}_l \mathbf{s} &lt;br/&gt;+&amp;nbsp;\widetilde{\mathbf{H}}_l \mathbf{s} +\mathbf{n}_l= &lt;br/&gt;\widehat{\mathbf{H}}_{l} \mathbf{s} + \mathbf{w}_l \)&lt;/div&gt;where &lt;br/&gt;\(\mathbf{w}_l =&amp;nbsp; \widetilde{\mathbf{H}}_l \mathbf{s} + \mathbf{n}_l \) &lt;br/&gt;is kind of colored noise with zero mean and covariance matrix \( &lt;br/&gt;\mathbf{\Sigma}_l = \sum_{i = 1}^K p_i \widetilde{\mathbf{R}}_{il} + &lt;br/&gt;\sigma^2 \mathbf{I}_N\)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="500" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8BapqA1ZgfuwaxU-zGh-8" target="_8BapqA1ZgfuwaxU-zGh-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;MMSE Estimator&lt;/div&gt;&lt;div&gt;\(\hat{\mathbf{h}}_{kl} = \sqrt{p_k \tau_p}\mathbf{R}_{kl}\mathbf{\Psi}_{kl}^{-1} \mathbf{y}_{kl}^p\)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="165" width="370" height="65" as="geometry" />
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-8" value="&lt;div&gt;Update \(\mathbf{T}_l\) and \(\mathbf{P}_l\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( \begin{split} \mathbf{T}_l &amp;amp; = \mathbf{P}_{(l-1)} \widehat{\mathbf{H}}_l^H \bigl( \mathbf{\Sigma}_l + \widehat{\mathbf{H}}_l \mathbf{P}_{(l-1)} \widehat{\mathbf{H}}_l^H\bigr)^{-1} \\&amp;nbsp;&amp;nbsp; \end{split} \)&lt;/div&gt;&lt;div&gt;\(\begin{split} &lt;br&gt;\mathbf{P}_l &amp;amp; = \bigl(\mathbf{I}_K - \mathbf{T}_l \widehat{\mathbf{H}}_l \bigr) \mathbf{P}_{(l-1)} \\&lt;br&gt;\end{split}\)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="510" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="_8BapqA1ZgfuwaxU-zGh-1" value="Note that \( \mathbf{s} \) is uncorrelated with \( \mathbf{w}_l\) but is statistically dependent&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="260" width="310" height="35" as="geometry" />
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-9" value="&lt;div&gt;Signal estimation&lt;/div&gt;&lt;div&gt;\(&lt;br&gt;\begin{split}&lt;br&gt;\widehat{\mathbf{s}}_l &amp;amp; = \widehat{\mathbf{s}}_{(l-1)} + \mathbf{T}_l \bigl(\mathbf{y}_l - \widehat{\mathbf{H}}_l \widehat{\mathbf{s}}_{(l-1)} \bigr) \\&lt;br&gt;\end{split}&lt;br&gt;\)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="515" width="380" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_8BapqA1ZgfuwaxU-zGh-2" value="&lt;div&gt;Received signal \(\mathbf{y}_{l} = \mathbf{H}_l \mathbf{s} + \mathbf{n}_l \in \mathbf{C}^N = \widehat{\mathbf{H}}_l \mathbf{s} +&amp;nbsp;\widetilde{\mathbf{H}}_l \mathbf{s} +\mathbf{n}_l= \widehat{\mathbf{H}}_{l} \mathbf{s} + \mathbf{w}_l \)&lt;/div&gt;&lt;div&gt;where \(\mathbf{w}_l =&amp;nbsp; \widetilde{\mathbf{H}}_l \mathbf{s} + \mathbf{n}_l \) is kind of colored noise with zero mean and covariance matrix \( \mathbf{\Sigma}_l = \sum_{i = 1}^K p_i \widetilde{\mathbf{R}}_{il} + \sigma^2 \mathbf{I}_N\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="340" width="310" height="130" as="geometry" />
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-10" value="Note that \( \mathbf{s} \) is uncorrelated with \( \mathbf{w}_l\) but is statistically dependent&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="635" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8BapqA1ZgfuwaxU-zGh-12" target="_8BapqA1ZgfuwaxU-zGh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-12" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="135" y="350" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-14" value="&lt;div&gt;AP \(2\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-17" value="&lt;div&gt;\( \widehat{\mathbf{s}}_1, \mathbf{P}_1 \)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_8BapqA1ZgfuwaxU-zGh-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="135" y="400" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-20" value="&lt;div&gt;AP \(3\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-25" value="&lt;div&gt;\( \widehat{\mathbf{s}}_2, \mathbf{P}_2 \)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_8BapqA1ZgfuwaxU-zGh-27" target="_8BapqA1ZgfuwaxU-zGh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-27" value=". . . " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="455" width="25" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-30" value="&lt;div&gt;\( \widehat{\mathbf{s}}_{(l-1)}, \mathbf{P}_{(l-1)} \)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-19" target="HNc6YtDHOVWQGCZwxuty-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8BapqA1ZgfuwaxU-zGh-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_8BapqA1ZgfuwaxU-zGh-6" target="_8BapqA1ZgfuwaxU-zGh-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
