@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.0">
   <diagram name="Page-1" id="g66AYG55TtXyA1JEMtzF">
-    <mxGraphModel dx="2497" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3374" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF1AA;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF1AA;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="40" width="350" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-3" value="&lt;div&gt;Channels modelled as correlated Rayleigh fading distribution:&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ \textbf{h}_{kl} \sim \mathcal{C} \mathcal{N} (0, \textbf{R}_{kl}), \textbf{R}_{kl} \in \mathbf{C}^{N \times N}, \textbf{h}_{kl} \in \mathbf{C}^N $$&lt;/div&gt;&lt;div&gt;Known at each APs and the CPU:&lt;/div&gt;&lt;div&gt;Spatial correlation matrix \(\{\textbf{R}_{kl}\}\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;No pilot contamiation assumed&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(p_i \geq 0 \), transmit power of UE \(i\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\textbf{N}_l \in \mathbf{C}^{N \times \tau_p}\), noise at the receiver, with independent elements distributed as \(\mathcal{C}\mathcal{N}(0, \sigma^2)\), where \(\sigma^2\) noise power&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-3" value="&lt;div&gt;Channels modelled as correlated Rayleigh fading distribution:&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ \textbf{h}_{kl} \sim \mathcal{C} \mathcal{N} (0, \textbf{R}_{kl}), \textbf{R}_{kl} \in \mathbf{C}^{N \times N}, \textbf{h}_{kl} \in \mathbf{C}^N $$&lt;/div&gt;&lt;div&gt;Known at each APs and the CPU:&lt;/div&gt;&lt;div&gt;Spatial correlation matrix \(\{\textbf{R}_{kl}\}\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;No pilot contamiation assumed&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(p_i \geq 0 \), transmit power of UE \(i\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\(\textbf{N}_l \in \mathbf{C}^{N \times \tau_p}\), noise at the receiver, with independent elements distributed as \(\mathcal{C}\mathcal{N}(0, \sigma^2)\), where \(\sigma^2\) noise power&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="80" width="310" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="150" width="280" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;\(\tau_p\) mutually orthogonal \(\tau_p\)-length pilot signals \(\phi_1, \phi_2, ..., \phi_{\tau_p} \) with \(\| \phi_k \|^2 = \tau_p\). Pilot \(k\) is assigned to UE \(k\) for \(k = 1, ..., K\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;\(\tau_p\) mutually orthogonal \(\tau_p\)-length pilot signals \(\phi_1, \phi_2, ..., \phi_{\tau_p} \) with \(\| \phi_k \|^2 = \tau_p\).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Pilot \(k\) is assigned to UE \(k\) for \(k = 1, ..., K\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-740" y="170" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
           <mxGeometry x="-410" y="150" width="1070" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-9" value="UEs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-9" value="UEs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-530" y="230" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-10" value="&lt;div&gt;AP \(l\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-10" value="&lt;div&gt;AP \(l\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="610" y="235" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;\(\textbf{Y}^p_l = \sum_{i = 1}^K \sqrt{p_i}\textbf{h}_{il}\phi_i^T + \textbf{N}_l\),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( \textbf{Y}^p_l \in \mathbf{C}^{N \times \tau_p}\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;\(\textbf{Y}^p_l = \sum_{i = 1}^K \sqrt{p_i}\textbf{h}_{il}\phi_i^T + \textbf{N}_l\),&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;\( \textbf{Y}^p_l \in \mathbf{C}^{N \times \tau_p}\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-410" y="140" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-19" target="HNc6YtDHOVWQGCZwxuty-23">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-19" target="HNc6YtDHOVWQGCZwxuty-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;Despreading of the signal&lt;/div&gt;&lt;div&gt;Despreaded signal: \(\textbf{y}_{kl}^p = \textbf{Y}_l^p \frac{\phi_k^*}{\sqrt{\tau_p}} = \sqrt{p_i \tau_p} \textbf{h}_{kl} + \textbf{n}_{kl} \)&lt;/div&gt;&lt;div&gt;Covariance matrix: \(\mathbf{\Psi}_{kl} = \tau_p p_i \mathbf{R}_{kl} + \sigma^2 \mathbf{I}_N\)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;Despreading of the signal&lt;/div&gt;&lt;div&gt;Despreaded signal: \(\textbf{y}_{kl}^p = \textbf{Y}_l^p \frac{\phi_k^*}{\sqrt{\tau_p}} = \sqrt{p_i \tau_p} \textbf{h}_{kl} + \textbf{n}_{kl} \)&lt;/div&gt;&lt;div&gt;Covariance matrix: \(\mathbf{\Psi}_{kl} = \tau_p p_i \mathbf{R}_{kl} + \sigma^2 \mathbf{I}_N\)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="165" width="310" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-5" target="HNc6YtDHOVWQGCZwxuty-11">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HNc6YtDHOVWQGCZwxuty-5" target="HNc6YtDHOVWQGCZwxuty-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-430" y="200" />
@@ -42,10 +42,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;MMSE Estimator&lt;/div&gt;&lt;div&gt;\(\hat{\mathbf{h}}_{kl} = \sqrt{p_k \tau_p}\mathbf{R}_{kl}\mathbf{\Psi}_{kl}^{-1} \mathbf{y}_{kl}^p\)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;MMSE Estimator&lt;/div&gt;&lt;div&gt;\(\hat{\mathbf{h}}_{kl} = \sqrt{p_k \tau_p}\mathbf{R}_{kl}\mathbf{\Psi}_{kl}^{-1} \mathbf{y}_{kl}^p\)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="167.5" width="370" height="65" as="geometry" />
         </mxCell>
       </root>
