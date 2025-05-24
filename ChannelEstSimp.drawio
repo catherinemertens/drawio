@@ -1,45 +1,40 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.10">
   <diagram name="Page-1" id="g66AYG55TtXyA1JEMtzF">
-    <mxGraphModel dx="2524" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2517" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="150" width="280" height="100" as="geometry" />
+        <mxCell id="xYfcbdZGXTMzKi-HFLhQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-5" target="HNc6YtDHOVWQGCZwxuty-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;Pilot signals \(\phi_1, \phi_2, ..., \phi_{\tau_p}\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Pilot \(k\) is assigned to UE \(k\) for \(k = 1, ..., K\)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B1DDF0;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="145" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pilot signals \(\phi_1, \phi_2, ..., \phi_{\tau_p}\)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&amp;nbsp;Pilot \(k\) is assigned to UE \(k\) for \(k = 1, ..., K\)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-740" y="170" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" parent="1" vertex="1">
           <mxGeometry x="-450" y="145" width="710" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-9" value="UEs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-530" y="230" width="60" height="30" as="geometry" />
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;UEs&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-527" y="216" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-10" value="&lt;div&gt;AP \(l\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-10" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;AP \(l\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="230" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;\(\textbf{Y}^p_l = \sum_{i = 1}^K \sqrt{p_i}\textbf{h}_{il}\phi_i^T + \textbf{N}_l\)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="175" width="170" height="45" as="geometry" />
+        <mxCell id="xYfcbdZGXTMzKi-HFLhQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-11" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;\(\textbf{Y}^p_l = \sum_{i = 1}^K \sqrt{p_i}\textbf{h}_{il}\phi_i^T + \textbf{N}_l\)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-446" y="172.5" width="216" height="45" as="geometry" />
         </mxCell>
         <mxCell id="HNc6YtDHOVWQGCZwxuty-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-19" target="HNc6YtDHOVWQGCZwxuty-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;Despreading of the signal&lt;/div&gt;&amp;nbsp;/ correlation with pilot signal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="175" width="260" height="40" as="geometry" />
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-19" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Despreading of the signal&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="175" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HNc6YtDHOVWQGCZwxuty-5" target="HNc6YtDHOVWQGCZwxuty-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-430" y="200" />
-              <mxPoint x="-430" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.581;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="HNc6YtDHOVWQGCZwxuty-11" target="HNc6YtDHOVWQGCZwxuty-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;MMSE Estimator&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HNc6YtDHOVWQGCZwxuty-23" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MMSE Estimator&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="176.25" width="170" height="37.5" as="geometry" />
         </mxCell>
       </root>
